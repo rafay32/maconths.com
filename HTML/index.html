@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pg1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sacramento&display=swap" rel="stylesheet">  
+    <title>Maconths.com</title>
+    <link rel="shortcut icon" type="image" href="../img/nav.png">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <a href="index.html"><img src="../img/nav.png"></a>
+            </div>
+            <ul>
+                <li class="item"><a href="length.html">Length</a></li>
+                <li class="item"><a href="area.html">Area</a></li>
+                <li class="item"><a href="weight.html">Weight</a></li>
+                <li class="item"><a href="volume.html">Volume</a></li>
+                <li class="item"><a href="temp.html">Tempreture</a></li>
+                <li class="item"><a href="currency.html">Currency</a></li>
+                <li class="item"><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <td><div id="converter-body">
+                <h1 class="converter-title">Lenght Converter</h1>
+                <input type="text" placeholder="Input" id="input">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="result">
+        
+        
+                <select id="inputType">
+                    <option value="miles">Miles</option>
+                    <option value="yards">Yards</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="feet">Feet</option>
+                    <option value="inches">Inches</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="milimeter">Millieter</option>
+                </select>
+        
+                <select id="resultType">
+                    <option value="miles">Miles</option>
+                    <option value="yards">Yards</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="meter">Meter</option>
+                    <option value="feet">Feet</option>
+                    <option value="inches">Inches</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="milimeter">Millieter</option>
+                </select>
+                <script src="/JS/L.js"></script>
+            </div></td>
+            <td><div id="area">
+                <h1 class="converter-title">Area Converter</h1>
+                <input type="text" placeholder="Input" id="put">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="sult">
+        
+        
+                <select id="putType">
+                    <option value="square-miles">Square Miles</option>
+                    <option value="square-yards">Square Yards</option>
+                    <option value="square-kilometer">Square Kilometer</option>
+                    <option value="square-meter">Square Meter</option>
+                    <option value="square-feet">Square Feet</option>
+                    <option value="square-inches">Square Inches</option>
+                    <option value="acres">Acres</option>
+                    <option value="hectares">Hectares</option>
+                </select>
+        
+                <select id="sultType">
+                    <option value="square-miles">Square Miles</option>
+                    <option value="square-yards">Square Yards</option>
+                    <option value="square-kilometer">Square Kilometer</option>
+                    <option value="square-meter">Square Meter</option>
+                    <option value="square-feet">Square Feet</option>
+                    <option value="square-inches">Square Inches</option>
+                    <option value="acres">Acres</option>
+                    <option value="hectares">Hectares</option>
+                </select>
+                <script src="/JS/a.js"></script>
+            </div></td>
+        </tr>
+        <tr>
+            <td><div id="mass">
+                <h1 class="converter-title">Weight Converter</h1>
+                <input type="text" placeholder="Input" id="nput">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="esult">
+        
+        
+                <select id="nputType">
+                    <option value="ounces">Ounces</option>
+                    <option value="grams">grams</option>
+                    <option value="pounds">Pounds</option>
+                    <option value="kilograms">Kilograms</option>
+                    <option value="short-tons">Short tons</option>
+                    <option value="metric-ton">Metric ton</option>
+                </select>
+        
+                <select id="esultType">
+                    <option value="ounces">Ounces</option>
+                    <option value="grams">grams</option>
+                    <option value="pounds">Pounds</option>
+                    <option value="kilograms">Kilograms</option>
+                    <option value="short-tons">Short tons</option>
+                    <option value="metric-ton">Metric ton</option>
+                </select>
+                <script src="/JS/w.js"></script>
+            </div></td>
+            <td><div id="volume">
+                <h1 class="converter-title">Volume Converter</h1>
+                <input type="text" placeholder="Input" id="input2">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="result2">
+        
+        
+                <select id="inputType2">
+                        <option value="fluid-ounces">fluid ounces</option>
+                        <option value="milliliters">milliliters</option>    
+                        <option value="gallons">gallons<option>    
+                        <option value="liters">liters<option>    
+                        <option value="cubic-feet">cubic feet</option>    
+                        <option value="cubic-meters">cubic meters</option>
+                        <option value="cubic-yards">cubic yards</option>
+                </select>
+        
+                <select id="resultType2">
+                    <option value="fluid-ounces">fluid ounces</option>
+                    <option value="milliliters">milliliters</option>    
+                    <option value="gallons">gallons<option> 
+                    <option value="liters">liters<option>    
+                    <option value="cubic-feet">cubic feet</option>    
+                    <option value="cubic-meters">cubic meters</option>
+                    <option value="cubic-yards">cubic yards</option> 
+                </select>
+                <script src="/JS/v.js"></script>
+            </div></td>
+        </tr>
+        <tr>
+            <td><div id="temp">
+                <h1 class="converter-title">Tempreture Converter</h1>
+                <input type="text" placeholder="Input" id="input1">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="result1">
+        
+        
+                <select id="inputType1">
+                    <option value="celsius">Celsius</option>
+                    <option value="farhenheit">Farhenheit</option>
+                </select>
+        
+                <select id="resultType1">
+                    <option value="celsius">Celsius</option>
+                    <option value="farhenheit">Farhenheit</option>
+                </select>
+                <script src="/JS/t.js"></script>
+            </div></td>
+            <td><div id="currency">
+                <h1 class="converter-title">Currency Converter</h1>
+                <input type="text" placeholder="Input" id="ut">
+                <span>=</span>
+                <input type="text" placeholder="Result" id="ult">
+        
+        
+                <select id="utType">
+                        <option value="USD">United State Dollars</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">United Kingdom Pounds</option>
+                        <option value="CAD">Canada Dollars<option>
+                        <option value="INR">Indian Rupees</option>
+                        <option value="PKR">Pakistani Rupees</option>
+                </select>
+        
+                <select id="ultType">
+                        <option value="USD">United State Dollars</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">United Kingdom Pounds</option>    
+                        <option value="CAD">Canada Dollars<option>    
+                        <option value="INR">Indian Rupees</option>    
+                        <option value="PKR">Pakistani Rupees</option>   
+                </select>
+                <script src="/JS/c.js"></script>
+            </div></td>
+        </tr>
+    </table>
+
+    <section id="footer">
+        <div class="title-text">
+            <p>Contact</p>
+            <h1><a href="#up" class="a1">Use This Converter Today</a></h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-col">
+                <h1>Any issues? Report on following</h1>
+                <p>#30 ABC Colony, XYZ City <i class="fa fa-map-marker"></i></p>
+                <p>Example@gmail.com <i class="fa fa-paper-plane"></i></p>
+                <p>+01 123456789 <i class="fa fa-phone"></i></p>
+            </div>
+        
+        </div>
+        <div class="social-links">
+            <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a target="_blank" href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+        </div>
+    </section>
+</body>
+</html>
